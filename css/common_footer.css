@@ -9,6 +9,7 @@ footer {
 /* footer ftop start */
 footer .ftop {
     overflow: hidden;
+    height: 60px;
 }
 
 footer .ftop .item {
@@ -106,11 +107,20 @@ footer .ftop .item .seleted_btn a {
     background: #666;
 }
 
-.fbottom .fb_top .fb_menu ul li a {
+/* fb_menu after display none */
+.fbottom .fb_top .fb_menu ul li:nth-child(3):after,
+.fbottom .fb_top .fb_menu ul li:nth-child(6):after {
+    display: none;
+}
 
+.fbottom .fb_top .fb_menu ul li a {
     font-size: 14px;
     margin: 0 10px;
     line-height: 100px;
+}
+
+.fbottom .fb_top .fb_menu ul li a strong {
+    color: #1c236c;
 }
 
 /* fb_link */
@@ -136,14 +146,29 @@ footer .ftop .item .seleted_btn a {
 }
 
 /* fbottom .info */
-.fb_bottom .info {}
+.fb_bottom {
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+}
 
-.fb_bottom .info span {}
+.fb_bottom .info {
+    float: left;
+}
+
+.fb_bottom .info span {
+    font-size: 13px;
+}
 
 .fb_bottom .info span a {}
 
-.fb_bottom .copyright {}
+/* fb_bottom .copyright */
+.fb_bottom .copyright {
+    float: right;
+}
 
-.fb_bottom .copyright span {}
+.fb_bottom .copyright span {
+    font-size: 13px;
+}
 
 /* footer end */
