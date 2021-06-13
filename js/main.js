@@ -1,4 +1,5 @@
 $(function () {
+
     // hbottom menu click event
     $('.all_menu').click(function (e) {
         e.preventDefault()
@@ -7,13 +8,6 @@ $(function () {
         $('.hbottom .menu_btn span:last-child').toggleClass('active03')
     })
 
-    // #search_box focus, blur event (인천의 궁금증은 이곳에 삭제)
-    $('#search_box').focus(function () {
-        $('.placeholder').css('display', 'none');
-    }).blur(function () {
-        $('.placeholder').css('display', 'block');
-        $('#search_box').val('')
-    })
 
     //swiper slider
     let swiper01 = new Swiper(".main_slider01", {

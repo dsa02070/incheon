@@ -1,5 +1,106 @@
 @charset "utf-8";
 
+/* common style */
+.inner {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+/* top btn style */
+.top_btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #1c236c;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.top_btn img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+}
+
+/* quick_menu start */
+.quick_menu {
+    overflow: hidden;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* quick_menu menu_btn */
+.quick_menu .menu_btn {
+    float: left;
+}
+
+.quick_menu .menu_btn a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 44px;
+    background: #eee;
+}
+
+.quick_menu .menu_btn img {
+    padding-left: 18px;
+}
+
+/* quick_menu logo */
+#logo {
+    float: left;
+    margin-left: 20px;
+}
+
+#logo h1 {
+    line-height: 50px;
+}
+
+#logo h1 a {}
+
+#logo h1 a img {
+    width: 108px;
+    vertical-align: middle;
+    transform: translateY(-11%);
+}
+
+/* quick_menu menu */
+.quick_menu .menu {
+    float: right;
+}
+
+.quick_menu .menu ul {
+    overflow: hidden;
+}
+
+.quick_menu .menu ul li {
+    float: left;
+    border-left: 1px solid #ccc;
+}
+
+.quick_menu .menu ul li:last-child {
+    background: #eee;
+    border-right: 1px solid #ccc;
+}
+
+.quick_menu .menu ul li a {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.quick_menu .menu ul li a img {
+    margin-bottom: 4px;
+}
+
+/* quick_menu end */
+
 /* footer start */
 footer {
     height: 60px;
