@@ -15,7 +15,7 @@ $(function () {
         observer: true,
         observeParents: true,
         autoplay: {
-            delay: 1000,
+            delay: 3000,
             disableOnInteraction: true,
         },
         pagination: {
@@ -34,7 +34,7 @@ $(function () {
         observer: true,
         observeParents: true,
         autoplay: {
-            delay: 1000,
+            delay: 3000,
             disableOnInteraction: true,
         },
         pagination: {

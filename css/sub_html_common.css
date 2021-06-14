@@ -72,42 +72,38 @@ section .inner {
 }
 
 /* lnb submenu */
-.lnb>ul>.submenu {
-    display: none;
-    background: #f1f1f1;
-    border-bottom: 1px solid #ccc;
-}
-
-.lnb>ul>.submenu {
+.lnb>ul>li>.submenu {
     display: none;
     padding: 14px 0;
+    background: #f1f1f1;
+    border-top: 1px solid #ccc;
 }
 
 /* jquery toggleClass */
-.lnb>ul>.submenu.active {
+.lnb>ul>li>.submenu.active {
     display: block;
 }
 
-.lnb>ul>.submenu li {
+.lnb>ul>li>.submenu li {
     position: relative;
     line-height: 24px;
     margin-bottom: 10px;
     padding-left: 24px;
 }
 
-.lnb>ul>.submenu li.on {
+.lnb>ul>li>.submenu li.on {
     color: #111;
     text-decoration: underline;
 }
 
-.lnb>ul>.submenu li a {
+.lnb>ul>li>.submenu li a {
 
     font-size: 16px;
 
     color: #333;
 }
 
-.lnb>ul>.submenu li:before {
+.lnb>ul>li>.submenu li:before {
     content: '';
     position: absolute;
     top: 11px;
@@ -118,7 +114,7 @@ section .inner {
     background: #333;
 }
 
-.lnb>ul>.submenu li a img {
+.lnb>ul>li>.submenu li a img {
     width: 12px;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -224,6 +220,7 @@ section .content .title .btn a img {
 .text_list {
     position: relative;
     font-size: 15px;
+    line-height: 24px;
     margin: 5px 0;
     padding-left: 60px;
     color: #666;

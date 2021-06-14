@@ -7,22 +7,22 @@ $(function () {
     })
 
     //lnb accordion event
-    $('.accordion').click(function () {
+    $('.accordion a').click(function () {
         if ($('+.submenu', this).css('display') == 'none') {
             $('.lnb .submenu').removeClass('active')
             $('+.submenu', this).addClass('active')
             $('.accordion a').attr('class', 'arrow')
-            $(this).find('a').attr('class', 'arrow_up')
+            $(this).attr('class', 'arrow_up')
         } else {
             $('+.submenu', this).removeClass('active')
-            $(this).find('a').attr('class', 'arrow')
+            $(this).attr('class', 'arrow')
         }
     })
 
     //lnb lnb submenu li event
-    $('.lnb>ul>.submenu li').click(function (e) {
+    $('.lnb>ul>li>.submenu li').click(function (e) {
         e.preventDefault()
-        $('.lnb>ul>.submenu li').removeClass('on')
+        $('.lnb>ul>li>.submenu li').removeClass('on')
         $(this).addClass('on')
     })
 })
