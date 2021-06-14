@@ -1,1 +1,155 @@
 @charset "utf-8";
+
+/* table_info */
+.table_info {
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.table_info .page {
+    float: left;
+    margin-top: 10px;
+}
+
+.table_info .page p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* search_box */
+.table_info .search_box {
+    float: right;
+}
+
+.table_info .search_box select {
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    appearance: none;
+    background: url('../img/sub_html_common/arrow_down.png');
+    background-repeat: no-repeat;
+    background-position: 90% center;
+}
+
+.table_info .search_box select option {
+    display: inline-block;
+    height: 20px;
+    line-height: 24px;
+}
+
+.table_info .search_box input {
+    font-size: 14px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.table_info .search_box button {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-left: -1px;
+    color: #fff;
+    background: #1e9fd5;
+}
+
+/* table */
+.content table {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+}
+
+.content table tr {
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.content table tr:hover {
+    background: #f9fdf3;
+}
+
+.content table .notice {
+    background: #f9fdf3;
+}
+
+.content table .notice td span {
+    font-size: 13px;
+    padding: 1px 5px;
+    border-radius: 13px;
+    color: #fff;
+    background: #0070bd;
+}
+
+.content table .new td span {
+    font-size: 13px;
+    padding: 1px 5px;
+    border-radius: 13px;
+    color: #fff;
+    background: #1e9fd5;
+}
+
+.content table tr th {
+    background: #f1f1f1;
+}
+
+.content table tr td {
+    min-width: 80px;
+}
+
+.content table tr td:not(:nth-child(3)) {
+    text-align: center;
+}
+
+.content table tr td:nth-child(3) {
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+
+/* pagination */
+.pagination {
+    padding: 40px 0 120px;
+}
+
+.pagination ul {
+    overflow: hidden;
+    text-align: center;
+}
+
+.pagination ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.pagination ul li.on {
+    color: white;
+    background: #1e9fd5;
+    font-weight: normal;
+}
+
+.pagination ul .btn {
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    border: 1px solid #666;
+    box-sizing: border-box;
+}
+
+.pagination ul li a {
+    display: inline-block;
+    width: 100%;
+}
+
+.pagination ul li a img {
+    margin-bottom: 5px;
+}

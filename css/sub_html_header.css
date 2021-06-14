@@ -3,7 +3,7 @@
 /* color 
 
 primary : #1c236c (남색계열)
-hover : #52a4e7; (파랑계열)
+hover : #1e9fd5 (파랑계열)
 
 */
 
@@ -15,8 +15,6 @@ top_btn : 200;
 */
 
 /* header start */
-header {}
-
 /* search_menu */
 .search_menu {
     border-bottom: 1px solid #ccc;
@@ -39,8 +37,6 @@ header {}
     width: 60%;
     line-height: 60px;
 }
-
-.search_menu .logo a {}
 
 .search_menu .logo a img {
     width: 100%;
@@ -89,8 +85,6 @@ header {}
 .search_menu .search label .placeholder strong {
     color: #1c236c;
 }
-
-.search_menu .search label strong {}
 
 .search_menu .search label .search_btn {
     float: right;
@@ -152,21 +146,13 @@ header {}
     width: 100%;
     height: 0px;
     background: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown_menu>.bg.active {
-    height: 600px;
+    height: 598px;
 }
-
-.dropdown_menu .inner {
-    /* background: #ff0000; */
-    /* height: 30px; */
-}
-
-.dropdown_menu>ul {
-    /* overflow: hidden; */
-}
-
 
 .dropdown_menu>.inner>ul:after {
     content: '';
@@ -214,7 +200,6 @@ header {}
     padding: 14px 0;
 }
 
-
 /* submenu */
 .dropdown_menu .submenu {
     position: absolute;
@@ -247,8 +232,6 @@ header {}
 
 .dropdown_menu>.inner>ul>li:last-child .submenu {
     border-right: 1px solid #ccc;
-    /* margin-right: -9px; */
-    /* box-sizing: content-box; */
 }
 
 .dropdown_menu .submenu>li {

@@ -35,6 +35,7 @@ a {
 
 img {
     vertical-align: middle;
+    border: none;
 }
 
 input,
@@ -43,6 +44,10 @@ select {
     outline: none;
     border: none;
     background: none;
+}
+
+select::-ms-expand {
+    display: none
 }
 
 address {

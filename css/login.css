@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+/* welcome */
+.welcome {
+    overflow: hidden;
+}
+
+.welcome .left {
+    float: left;
+    width: calc(100% - 180px);
+}
+
+.welcome .left .title_text {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.welcome .left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #666;
+}
+
+.welcome .right {
+    float: right;
+    background: url('../img/login/welcome.png');
+    width: 180px;
+    height: 136px;
+}
+
+/* login */
+
+/* 중앙정렬을 위한 공통 스타일 */
+.container {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.login {
+    text-align: center;
+}
+
+/* login left */
+.login .left {
+    float: left;
+}
+
+.login .left label {
+    display: block;
+    text-align: left;
+}
+
+.login .left label>input[type=text],
+.login .left label>input[type=password] {
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.login .left label>input[type=text]:hover,
+.login .left label>input[type=password]:hover {
+    border: 1px solid #0070bd;
+}
+
+.login .left label>input[type=text] {
+    margin-left: 44px;
+}
+
+.login .left label>input[type=checkbox] {
+    margin-left: 90px;
+    margin-right: 8px;
+}
+
+/* login right */
+.login .right {
+    float: left;
+}
+
+.login .right a {
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+    line-height: 150px;
+    margin-left: 30px;
+    color: white;
+    background-color: #0070bd;
+    background-image: url('../img/login/login_img.png');
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.login .right a:hover {
+    background-color: #1c236c;
+}
+
+/* membership */
+.membership {
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.membership .left {
+    float: left;
+    margin-right: 80px;
+    padding-right: 80px;
+    border-right: 1px solid #ccc;
+}
+
+.membership p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+}
+
+.membership a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.membership .left a {
+    width: 260px;
+    color: #fff;
+    background: #555;
+}
+
+.membership .left a:hover {
+    background: #333;
+}
+
+.membership .right {
+    float: left;
+}
+
+.membership .right a {
+    width: 110px;
+    background: #d1d1d1;
+}
+
+.membership .right a:hover {
+    color: #fff;
+    background: #333;
+}
+
+.membership .right a:first-of-type {
+    margin-right: 3px;
+}
+
+/* certification */
+.certification {
+    overflow: hidden;
+}
+
+.certification .box {
+    float: left;
+    width: calc(50% - 10px);
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+.certification .box:first-child {
+    margin-right: 20px;
+}
+
+/* icon common style */
+.icon {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+}
+
+.certification .box .phone {
+    background-image: url('../img/login/phone.png');
+}
+
+.certification .box .ipin {
+    background-image: url('../img/login/ipin.png');
+}
+
+.certification .box p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.certification .box a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background: #1c236c;
+}
+
+/* notice */
+.list.notice {
+    position: relative;
+    margin-top: 60px;
+    padding-left: 270px;
+    background-color: #f0f6fa;
+    border: 1px solid #ccc;
+}
+
+.notice_img {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 236px;
+    height: 196px;
+    background-image: url('../img/login/notice.png');
+    background-repeat: no-repeat;
+}
+
+/* title_text */
+.title_text_wrap .title_text {
+    line-height: 28px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.title_text_wrap .red_text {
+    padding-left: 60px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+/* title_text em style */
+em {
+    color: #333;
+}
+
+/* advantage */
+.advantage .box {
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.advantage .box:first-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.advantage .box .left {
+    float: left;
+    width: 20%;
+}
+
+.advantage .box .left .communication {
+    background-image: url('../img/login/communication.png');
+    background-size: 60%;
+    background-position: 60% 40%;
+}
+
+.advantage .box .left .service {
+    background-image: url('../img/login/service.png');
+    background-size: 60%;
+}
+
+.advantage .box .right {
+    float: left;
+    width: 80%;
+}
+
+.advantage .box .right .title_text {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.advantage .box .right .sub_text {
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 60px;
+}
+
+.advantage .box .right .sub_text em {
+    font-weight: 500;
+    color: #0070bd;
+}
+
+/* 통합사이트 목록 */
+.integration {
+    overflow: hidden;
+}
+
+.integration li {
+    float: left;
+    width: calc(25% - 10px);
+    height: 60px;
+    line-height: 60px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    background-image: url('../img/login/right_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+.integration li:hover {
+    background-color: #f9f9f9;
+}
+
+.integration li a {
+    display: inline-block;
+    width: 100%;
+}

@@ -15,8 +15,6 @@ hover : #52a4e7; (파랑계열)
 */
 
 /* --- header start --- */
-header {}
-
 /* htop start */
 header .htop {
     height: 200px;
@@ -45,8 +43,6 @@ header .htop .left {
     margin-top: 14px;
 }
 
-header .htop .left img {}
-
 header .htop .left p {
     font-size: 12px;
     font-weight: bold;
@@ -54,7 +50,6 @@ header .htop .left p {
     letter-spacing: -1px;
     text-shadow: 1px 1px 0px white;
 }
-
 
 /* htop .right */
 header .htop .right {
@@ -127,8 +122,6 @@ header .htop .right .table_wrap:first-child {
 }
 
 /* table bottom */
-.table_bottom {}
-
 .table_bottom .list {
     float: left;
     width: 33.3333%;
@@ -154,8 +147,6 @@ header .htop .right .table_wrap:first-child {
     padding-bottom: 4px;
     padding-right: 3px;
 }
-
-.table_bottom .list a span {}
 
 /* table bottom - table */
 .table_bottom table {
@@ -419,8 +410,6 @@ header .htop .right .table_wrap:first-child {
     color: #1c236c;
 }
 
-#main_banner .mb_left .top .search label strong {}
-
 /* hash area */
 #main_banner .mb_left .top .search label .hash_area {
     display: inline-block;
@@ -478,8 +467,6 @@ header .htop .right .table_wrap:first-child {
 }
 
 /* .mb_right mid */
-#main_banner .mb_right .mid {}
-
 /* .mid_select_area */
 #main_banner .mb_right .mid_select_area {
     overflow: hidden;
@@ -590,7 +577,6 @@ header .htop .right .table_wrap:first-child {
 
 #main_banner .mb_right .bottom .mayor_wrap .text_wrap a img {
     margin: 0 10px 3px;
-
 }
 
 #main_banner .mb_right .bottom .mayor_wrap .btn {
@@ -619,12 +605,8 @@ header .htop .right .table_wrap:first-child {
 
 /* middle_menu start */
 .middle_menu {
-
-    /* padding: 20px 0 0px; */
     background: #1471ac;
 }
-
-.middle_menu ul {}
 
 .middle_menu ul:after {
     content: '';
@@ -634,7 +616,7 @@ header .htop .right .table_wrap:first-child {
 
 .middle_menu ul li {
     float: left;
-    width: calc(100% / 11);
+    width: 9.09%;
     padding: 20px 0 0;
     height: 140px;
     text-align: center;
@@ -645,10 +627,6 @@ header .htop .right .table_wrap:first-child {
     background: #52a4e7;
     transform: translateY(-7%);
 }
-
-.middle_menu ul li a {}
-
-.middle_menu ul li a img {}
 
 .middle_menu ul li a span {
     display: block;
@@ -675,11 +653,6 @@ header .htop .right .table_wrap:first-child {
     box-sizing: border-box;
     background: #f1f1f1;
 }
-
-.news .left_menu ul {}
-
-.news .left_menu ul li {}
-
 
 .news .left_menu ul li:last-child {
     border: none;
@@ -732,15 +705,10 @@ header .htop .right .table_wrap:first-child {
 }
 
 .news .content .title a img {
-    /* display: inline-block; */
     width: 40px;
 }
 
 /* list */
-.news .content .list {}
-
-.news .content .list ul {}
-
 .news .content .list ul li {
     line-height: 60px;
     border-bottom: 1px solid #ccc;
@@ -749,8 +717,6 @@ header .htop .right .table_wrap:first-child {
 .news .content .list ul li a {
     overflow: hidden;
 }
-
-.news .content .list ul li a span {}
 
 .news .content .list ul li a span:last-child {
     float: right;
@@ -814,8 +780,6 @@ header .htop .right .table_wrap:first-child {
 }
 
 /* make title */
-.make .title {}
-
 .make .title img {
     position: absolute;
     top: 0;
@@ -833,8 +797,6 @@ header .htop .right .table_wrap:first-child {
 }
 
 /* make content */
-.make .content {}
-
 .make .content ul {
     overflow: hidden;
 }
@@ -856,14 +818,10 @@ header .htop .right .table_wrap:first-child {
     transform: scale(1.08);
 }
 
-.make .content ul li a {}
-
 .make .content ul li a img {
     width: 100%;
     transition: 0.3s ease-out;
 }
-
-
 
 .make .content ul li a .text_area {
     display: inline-block;
@@ -913,8 +871,6 @@ header .htop .right .table_wrap:first-child {
     margin-right: 20px;
 }
 
-.media .title {}
-
 .media .title h3 {
     font-size: 40px;
     padding-bottom: 30px;
@@ -945,8 +901,6 @@ header .htop .right .table_wrap:first-child {
 .media .left .content .list:last-child {
     margin-right: 0;
 }
-
-.media .content .list a {}
 
 .media .content .list a img {
     width: 100%;
@@ -981,7 +935,6 @@ header .htop .right .table_wrap:first-child {
     width: 80%;
     top: 20%;
     left: 12%;
-
 }
 
 .media .right .content .list .img_wrap a {
@@ -992,10 +945,7 @@ header .htop .right .table_wrap:first-child {
 .media .right .content .list .img_wrap img {
     width: 43px;
     height: 43px;
-
 }
 
-
 /* section media end */
-
 /* --- main end --- */
