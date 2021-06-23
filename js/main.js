@@ -8,7 +8,6 @@ $(function () {
         $('.hbottom .menu_btn span:last-child').toggleClass('active03')
     })
 
-
     //swiper slider01
     let swiper01 = new Swiper(".main_slider01", {
         loop: true,
@@ -45,7 +44,7 @@ $(function () {
         },
     });
 
-    // swiper slider tab menu event
+    // .swiper slider tab menu event
     $(function () {
         $(".slider_area").css("display", "none");
         $(".slider_area:nth-of-type(1)").css("display", "block");
@@ -58,6 +57,8 @@ $(function () {
 
     // .swiper_btn .first_btn event
     $('.swiper_btn.first_btn').click(function () {
+        swiper01.autoplay.start();
+        swiper02.autoplay.stop();
 
         $('.first_btn .triangle').css('display', 'block');
         $('.swiper_btn.first_btn .first-pagination').css('display', 'block');
@@ -69,6 +70,8 @@ $(function () {
     })
     // .swiper_btn .second btn event
     $('.swiper_btn.second_btn').click(function () {
+        swiper02.autoplay.start();
+        swiper01.autoplay.stop();
 
         $('.first_btn .triangle').css('display', 'none');
         $('.swiper_btn.first_btn .first-pagination').css('display', 'none');
@@ -94,13 +97,6 @@ $(function () {
             $(this).find('img').attr('src', './img/main/pause.png');
         } else {
             $(this).find('img').attr('src', './img/main/play.png');
-        }
-        if ($('.swiper-button-play').find('img').attr('src') == './img/main/play.png') {
-            swiper01.autoplay.start();
-            swiper02.autoplay.start();
-        } else if ($('.swiper-button-play').find('img').attr('src') == './img/main/pause.png') {
-            swiper01.autoplay.stop();
-            swiper02.autoplay.stop();
         }
     })
 
